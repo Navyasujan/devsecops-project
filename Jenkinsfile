@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        DOCKERHUB_USER = "ram1993"
+        DOCKERHUB_USER = "navyasujan"
         DOCKERHUB_REPO = "java-aks-app"
         IMAGE_TAG = "${BUILD_NUMBER}"
         IMAGE_NAME = "${DOCKERHUB_USER}/${DOCKERHUB_REPO}"
